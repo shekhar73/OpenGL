@@ -15,7 +15,7 @@ int main()
 	int fArray_num_elements;
 
 	char cArray[] = { 'A' , 's', 'T' , 'R', 'O' , 'M', 'E' , 'D' , 'I', 'C' , 'O', 'M', 'P' };
-	int char_size;
+	int BA_char_size;
 	int cArray_size;
 	int cArray_num_elements;
 
@@ -60,9 +60,9 @@ int main()
 	//******** cArray[] ********
 	printf("\n\n");
 
-	char_size = sizeof(char);
+	BA_char_size = sizeof(char);
 	cArray_size = sizeof(cArray);
-	cArray_num_elements = cArray_size / char_size;
+	cArray_num_elements = cArray_size / BA_char_size;
 
 	i = 0;
 	do
@@ -72,9 +72,9 @@ int main()
 	} while (i < cArray_num_elements);
 
 	printf("\n\n");
-	printf("Size Of Data Type 'char' = %d bytes\n", char_size);
+	printf("Size Of Data Type 'char' = %d bytes\n", BA_char_size);
 	printf("Number Of Elements In 'char' Array 'cArray[]' = %d Elements\n", cArray_num_elements);
-	printf("Size Of Array 'cArray[]' (%d Elements * %d Bytes) = %d Bytes\n\n", cArray_num_elements, char_size, cArray_size);
+	printf("Size Of Array 'cArray[]' (%d Elements * %d Bytes) = %d Bytes\n\n", cArray_num_elements, BA_char_size, cArray_size);
 
 	return 0;
 
