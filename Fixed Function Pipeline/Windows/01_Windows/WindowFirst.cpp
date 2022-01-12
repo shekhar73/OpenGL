@@ -1,9 +1,4 @@
-// Header File
-#include<Windows.h>
 
-// Gloabal function declaration
-
-LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
 // Entry Point function
 
